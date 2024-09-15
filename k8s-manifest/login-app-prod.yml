@@ -4,8 +4,8 @@ kind: Deployment
 metadata:
   name: login
 spec:
-  # 1 Pod should exist at all times.
-  replicas: 1
+  # 2 Pods should exist at all times.
+  replicas: 2
   selector:
     matchLabels:
       app: login
